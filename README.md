@@ -5,7 +5,7 @@ Este projeto, desenvolvido como Projeto Final da disciplina de Laboratório de I
 
 A solução é baseada em Visão Computacional e utiliza a biblioteca MediaPipe Hands para a detecção das mãos e rastreamento dos dedos, em conjunto com a PyAutoGUI para simular inputs de teclado que realizam a interação com o aplicativo do YouTube Music. 
 
-O funcionamento consiste em: executar o script, desbloquear a detecção dos gestos (mantendo o punho cerrado por três segundos, qualquer uma das mãos), o que fará o aplicativo de música ser aberto caso não já o estiver, e por último navegar utilizando gestos, até o momento em que se deseje bloquear a detecção de gestos novamente, com o mesmo procedimento já dito.
+O funcionamento consiste em: executar o script, desbloquear a detecção dos gestos (mantendo o punho cerrado por três segundos, qualquer uma das mãos), o que fará o aplicativo de música ser aberto caso não já o estiver, e por último navegar utilizando gestos, até o momento em que se deseje bloquear a detecção de gestos novamente, fazendo o mesmo procedimento já dito.
 
 ## Funcionalidades
 
