@@ -3,11 +3,13 @@
 
 Este projeto, desenvolvido como Projeto Final da disciplina de Laboratório de Inovação e Automação, consiste em um sistema que permite controlar o YouTube Music utilizando gestos das mãos.
 
-A solução é baseada em Visão Computacional e utiliza a biblioteca MediaPipe Hands para a detecção das mãos e rastreamento dos dedos, em conjunto com a PyAutoGUI para simular inputs de teclado que realizam a interação com o aplicativo do YouTube Music.
+A solução é baseada em Visão Computacional e utiliza a biblioteca MediaPipe Hands para a detecção das mãos e rastreamento dos dedos, em conjunto com a PyAutoGUI para simular inputs de teclado que realizam a interação com o aplicativo do YouTube Music. 
+
+O funcionamento consiste em: executar o script, desbloquear a detecção dos gestos (mantendo o punho cerrado por três segundos, qualquer uma das mãos), o que fará o aplicativo de música ser aberto caso não já o estiver, e por último navegar utilizando gestos, até o momento em que se deseje bloquear a detecção de gestos novamente, com o mesmo procedimento já dito.
 
 ## Funcionalidades
 
-- Detecção de Mãos: Identifica a posição e orientação das mãos utilizando o modelo da biblioteca MediaPipe Hands.'
+- Detecção de Mãos: Identifica a posição e orientação das mãos utilizando o modelo da biblioteca MediaPipe Hands.
 
 - Reconhecimento de Gestos: Detecta diferentes gestos da mão e associa cada gesto a uma funcionalidade de controle multimídia, como:
 
@@ -16,6 +18,10 @@ A solução é baseada em Visão Computacional e utiliza a biblioteca MediaPipe 
   - Avançar para a próxima faixa.
 
   - Retroceder para a faixa anterior.
+
+  - Pular 15 segundos para frente ou para trás no vídeo
+
+  - Navegar pela página utilizando tab (ou shift+tab) e enter, entrando em playlists salvas ou sugeridas
 
 - Integração com o YouTube Music: Automatiza o controle do aplicativo diretamente no sistema operacional.
 
