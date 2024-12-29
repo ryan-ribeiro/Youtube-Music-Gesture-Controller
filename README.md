@@ -73,12 +73,12 @@ python Gesture-Controller.py
 |— hands_new.py      # Script principal do projeto.
 |— LICENSE           # Licença do projeto
 |— README.md         # Documentação do projeto.
+|— demo.mp4          # Vídeo de demonstração do projeto
 |— requirements.txt  # Lista de dependências.
-|— demo.MP4
 ```
 ## Demonstração
 
-Caso deseje visualizar o funcionamento do projeto, você pode assistir ao [vídeo de demonstração](link). O vídeo ilustra os gestos utilizados e o controle em tempo real do YouTube Music.
+Caso deseje visualizar o funcionamento do projeto, você pode assistir ao [vídeo de demonstração](https://drive.google.com/file/d/1QysnbWF9SiYpWTmd1fpldzc834MqnEJu/view?usp=sharing). O vídeo ilustra os gestos utilizados e o controle em tempo real do YouTube Music.
 
 ## Considerações Finais
 
