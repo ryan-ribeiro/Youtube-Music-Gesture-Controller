@@ -76,11 +76,11 @@ python Gesture-Controller.py
 
 ## Estrutura do Projeto
 ```
-|— hands_new.py      # Script principal do projeto.
-|— LICENSE           # Licença do projeto
-|— README.md         # Documentação do projeto.
-|— demo.mp4          # Vídeo de demonstração do projeto
-|— requirements.txt  # Lista de dependências.
+|— hands_new.py        # Script principal do projeto.
+|— LICENSE             # Licença do projeto
+|— README.md           # Documentação do projeto.
+|— demo.mp4            # Vídeo de demonstração do projeto
+|— requirements.txt    # Lista de dependências.
 ```
 ## Demonstração
 
