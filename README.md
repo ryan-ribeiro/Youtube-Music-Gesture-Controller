@@ -15,6 +15,8 @@ O funcionamento consiste em: executar o script, desbloquear a detecção dos ges
 
   - Reproduzir/pausar a música.
 
+  - Aumentar, diminuir ou desativar o volume 
+
   - Avançar para a próxima faixa.
 
   - Retroceder para a faixa anterior.
