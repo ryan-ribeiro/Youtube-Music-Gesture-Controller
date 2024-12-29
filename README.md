@@ -68,6 +68,7 @@ python hands_new.py
 ## Estrutura do Projeto
 ```
 |— hands_new.py      # Script principal do projeto.
+|— LICENSE           # Licença do projeto
 |— README.md         # Documentação do projeto.
 |— requirements.txt  # Lista de dependências.
 ```
