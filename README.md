@@ -1,7 +1,7 @@
 # Youtube-Music-Gesture-Controller
 ## Descrição
 
-Este projeto, desenvolvido como parte da disciplina de Laboratório de Inovação e Automação, consiste em um sistema que permite controlar o YouTube Music utilizando gestos das mãos.
+Este projeto, desenvolvido como Projeto Final da disciplina de Laboratório de Inovação e Automação, consiste em um sistema que permite controlar o YouTube Music utilizando gestos das mãos.
 
 A solução é baseada em Visão Computacional e utiliza a biblioteca MediaPipe Hands para a detecção das mãos e rastreamento dos dedos, em conjunto com a PyAutoGUI para simular inputs de teclado que realizam a interação com o aplicativo do YouTube Music.
 
@@ -23,7 +23,7 @@ A solução é baseada em Visão Computacional e utiliza a biblioteca MediaPipe 
 
 - Linguagem de Programação: Python
 
-- Bibliotecas Principais __(contidas no arquivo requirements.txt)__:
+- Bibliotecas Principais:
 
   - MediaPipe Hands: Para detecção e rastreamento das mãos.
 
@@ -43,18 +43,19 @@ A solução é baseada em Visão Computacional e utiliza a biblioteca MediaPipe 
 
 - Webcam funcional.
 
-- Sistema operacional Windows.
+- Youtube Music App
+  - Sugiro instalar o Brave e abrir o Youtube Music, e então instalar um aplicativo que é um link para essa página. Ao instalar em seu sistema operacional, copie o caminho e cole no arquivo python para funcionar.  
 
 2. **Instale as Dependências:**
 Execute o seguinte comando para instalar todas as bibliotecas necessárias:
 
 ```
-pip install opencv-python mediapipe pygetwindow pyautogui
+pip install -r requirements.txt
 ```
 3. **Execute o Script:**
 Certifique-se de que o caminho para o atalho do YouTube Music está configurado corretamente no código. Em seguida, execute o script principal:
 ```
-python hands_new.py
+python Gesture-Controller.py
 ```
 
 4. **Controle por Gestos:**
@@ -62,6 +63,8 @@ python hands_new.py
 - Certifique-se de que a mão está visível para a webcam.
 
 - Realize os gestos configurados para interagir com o YouTube Music.
+
+- Consulte o handle da mão esquerda e direita para encontrar os gestos relacionados a cada comando, dentro do arquivo do programa. 
 
 - Pressione q para encerrar o programa.
 
@@ -71,6 +74,7 @@ python hands_new.py
 |— LICENSE           # Licença do projeto
 |— README.md         # Documentação do projeto.
 |— requirements.txt  # Lista de dependências.
+|— demo.MP4
 ```
 ## Demonstração
 
